@@ -1,0 +1,272 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 100px;
+/* 	background: pink; */
+	position: relative;
+}
+.headzuo{
+	width: 164px;
+	height: 100px;
+	position: absolute;
+	left: 187px;
+}
+.liebiao{
+	width: 506px;
+	height: 100px;
+/* 	background: red; */
+	position: absolute;
+	right: 215px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.liebiao li{
+	font-size: 14px;
+	color: #000;
+}
+.liebiao a:first-child li{
+	color: #00a8ee;
+}
+.liebiao li:hover{
+	color: #00a8ee;
+}
+.lunbo{
+	width: 100%;
+	height: 725px;
+/* 	background: pink; */
+	position: relative;
+	overflow: hidden;
+}
+.lunbo  img{
+	width: 1519px;
+	height: 725px;
+}
+.lunbo li{
+	position: absolute;
+	left: 1519px;
+}
+.lunbo li:first-child{
+	position: absolute;
+	left: 0;
+}
+.lunbodian{
+	width: 70px;
+	height: 25px;
+	/* background: pink; */
+	position: absolute;
+	top: 680px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.lunbodian div{
+	width: 12px;
+	height: 12px;
+	border-radius: 50%;
+	background: rgba(0, 0, 0, 0.2);
+	border: 4px solid rgba(0, 0, 0, 0.1);
+}
+.lunbodian div.hot{
+	background: #00a0e9;
+	border: 4px solid #fff;
+}
+/* .lunbodian div:nth-child(2):hover{
+	background: #fff;
+}
+.lunbodian div:nth-child(3):hover{
+	background: #fff;
+} */
+.xiatuneikuan{
+	width: 1519px;
+	height: 300px;
+/* 	background: pink; */
+}
+.tu1{
+	width: 499px;
+	height: 280px;
+	background: pink;
+	float: left;
+	margin-top: 6px;
+	margin-left: 6px;
+	transition:all 1s;
+}
+.tu1:hover{
+	box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.5);
+	transform:translateY(10px);
+}
+.tu1:last-child{
+	position: relative;
+}
+.tu1 img{
+	width: 499px;
+	height: 280px;
+}
+#bofang{
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	top: 123px;
+	left: 0;
+	right: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.xianshi{
+	width: 499px;
+	height: 280px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	display: none;
+}
+.tu1:last-child:hover .xianshi{
+	display: block;
+}
+.xianshi img{
+	width: 32px;
+	height: 32px;
+	margin-top: 124px;
+	margin-left: 234px;
+}
+/* 下部 */
+.zhong{
+	width: 100%;
+	height: 415px;
+	margin-top: 25px;
+	/* background: pink; */
+}
+.zhongjs{
+	width: 1366px;
+	height: 415px;
+/* 	background:#06ecc12b; */
+	margin: 0 auto;
+	/* margin-top: 350px; */
+}
+.zhongt{
+	width: 625px;
+	height: 417px;
+	float: left;
+}
+.zhongt img{
+	width: 625px;
+	height: 417px;
+	transition:all 1s;
+}
+.zhongt img:hover{
+	transform:translateY(-20px);
+	box-shadow:0 0 10px 5px rgba(0,0,0,0.5);
+}
+.zhongz{
+	width: 428px;
+	height: 231px;
+/* 	background: red; */
+	float: right;
+	margin-top: 120px;
+	margin-right: 180px;
+}
+.kej{
+	font-size: 25px;
+	font-weight: bold;
+}
+.zhongz marquee{
+	color: #00a0e9;
+}
+.zhongjs2{
+	width: 1366px;
+	height: 415px;
+	/* background:#ec065b7d; */
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.zhongt2{
+	width: 625px;
+	height: 417px;
+	float: right;
+}
+.zhongt2 img{
+	width: 625px;
+	height: 417px;
+	transition:all 1s;
+}
+.zhongz2{
+	width: 428px;
+	height: 231px;
+/* 	background: red; */
+	float:left;
+	margin-top: 120px;
+	margin-left: 180px;
+}
+.kej2{
+	font-size: 25px;
+	font-weight: bold;
+}
+.zhongz2 marquee{
+	color: red;
+}
+.zhongt2 img:hover{
+	transform:translateY(-20px);
+	box-shadow:0 0 10px 5px rgba(0,0,0,0.5);
+}
+.zhong3{
+	margin-top: 25px;
+	/* background:#ffff0063; */
+
+}
+/* 底部 */
+.foot{
+	width: 100%;
+	height: 37px;
+/* 	background: red; */
+	margin-top: 200px;
+}
+.footneikuan{
+	width: 447px;
+	height: 37px;
+/* 	background: yellow; */
+	margin: 0 auto;
+	position: relative;
+}
+.dihl{
+	width: 140px;
+	height: 37px;
+
+}
+.xian{
+	width:1px;
+	height: 37px;
+	background: #00a0e9;
+	position: absolute;
+	left: 140px;
+	top: 0;
+}
+.shanghai{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	top: 3px;
+	left: 161px;
+}
+.beian{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	left: 161px;
+	top: 21px;
+}
+/* 底部填充 */
+.zuidi{
+	width: 100%;
+	height: 58px;
+	background: #fff;
+}

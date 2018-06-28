@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 100px;
+/* 	background: pink; */
+	position: relative;
+}
+.headzuo{
+	width: 164px;
+	height: 100px;
+	position: absolute;
+	left: 187px;
+}
+.liebiao{
+	width: 506px;
+	height: 100px;
+/* 	background: red; */
+	position: absolute;
+	right: 215px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.liebiao li{
+	font-size: 14px;
+	color: #000;
+}
+.liebiao a:nth-child(6) li{
+	color: #00a8ee;
+}
+.liebiao li:hover{
+	color: #00a8ee;
+}
+.datu{
+	width: 100%;
+	height: 725px;
+	background: pink;
+}
+.datu img{
+	width: 100%;
+	height: 725px;
+}
+/* 加入我们 */
+.jrwm{
+	width: 1129px;
+	height: 304px;
+/* 	background: red; */
+	margin: 0 auto;
+	margin-top: 60px;
+	display: flex;
+	flex-direction: column; 
+	justify-content: space-between;
+}
+.clyfzxz{
+	font-size: 20px;
+	color: #00a0e9;
+	font-weight: bold;
+}
+.clyfzx a{
+	display: block;
+	color: #000;
+}
+.clyfzx a:hover{
+	color:#00a0e9;
+}
+/* 底部 */
+.foot{
+	width: 100%;
+	height: 37px;
+/* 	background: red; */
+	margin-top: 168px;
+}
+.footneikuan{
+	width: 447px;
+	height: 37px;
+/* 	background: yellow; */
+	margin: 0 auto;
+	position: relative;
+}
+.dihl{
+	width: 140px;
+	height: 37px;
+
+}
+.xian{
+	width:1px;
+	height: 37px;
+	background: #00a0e9;
+	position: absolute;
+	left: 140px;
+	top: 0;
+}
+.shanghai{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	top: 3px;
+	left: 161px;
+}
+.beian{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	left: 161px;
+	top: 21px;
+}
+.zuidi{
+	width: 100%;
+	height: 58px;
+	background: #fff;
+}

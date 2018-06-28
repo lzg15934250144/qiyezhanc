@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.head{
+	width: 100%;
+	height: 100px;
+/* 	background: pink; */
+	position: relative;
+}
+.headzuo{
+	width: 164px;
+	height: 100px;
+	position: absolute;
+	left: 187px;
+}
+.liebiao{
+	width: 506px;
+	height: 100px;
+/* 	background: red; */
+	position: absolute;
+	right: 215px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.liebiao li{
+	font-size: 14px;
+	color: #000;
+}
+.liebiao a:nth-child(3) li{
+	color: #00a8ee;
+}
+.liebiao li:hover{
+	color: #00a8ee;
+}
+.tupianzong{
+	width: 100%;
+	height: 777px;
+/* 	background: pink; */
+	
+}
+.cupianneikuan{
+	width: 1517px;
+	height: 777px;
+/* 	background: red; */
+	overflow: hidden;
+}
+.tu1{
+	width: 379px;
+	height: 697px;
+/* 	background: red; */
+	float: left ;
+    margin-top: 40px;
+    position: relative;
+    transition:all 1s;
+
+}
+.tu1 img {
+	width: 379px;
+	height: 697px;
+	
+}
+.xianshikuang{
+	width: 140px;
+	height: 51px;
+/* 	background: green; */
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+	display: none;
+
+}
+.xsk1{
+	font-size: 20px;
+	color: #fff;
+}
+.xian{
+	width: 120px;
+	height: 4px;
+	background: #fff;
+	position: absolute;
+	left: -120px;
+	transition:all 1s 0s linear;
+
+}
+.xsk2{
+	font-size: 10px;
+	color: #fff;
+	margin-top: 10px;
+}
+.tu1:hover .xianshikuang{
+	display: block;
+}
+.tu1:hover{
+	transform:scale(1.1);
+}
+.tu1:hover{
+	z-index: 999;
+}
+.tu1:hover .xian{
+	transform:translateX(120px);
+
+}
+
+.foot{
+	width: 100%;
+	height: 37px;
+/* 	background: red; */
+	margin-top: 50px;
+}
+.footneikuan{
+	width: 447px;
+	height: 37px;
+/* 	background: yellow; */
+	margin: 0 auto;
+	position: relative;
+}
+.dihl{
+	width: 140px;
+	height: 37px;
+
+}
+.xian1{
+	width:1px;
+	height: 37px;
+	background: #00a0e9;
+	position: absolute;
+	left: 140px;
+	top: 0;
+}
+.shanghai{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	top: 3px;
+	left: 161px;
+}
+.beian{
+	font-size: 12px;
+	color: #9b9c9c;
+	position: absolute;
+	left: 161px;
+	top: 21px;
+}
+/* 底部填充 */
+.zuidi{
+	width: 100%;
+	height: 58px;
+	background: #fff;
+}
