@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>哈罗单车首页</title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+	<script src="js/swiper-4.3.3.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/animate.js"></script>
+</head>
+<body>
+	<!-- 头部开始 -->
+	<div class="head">
+		<div class="headzuo"><img src="img/hl.png" alt=""></div>
+		<ul class="liebiao">
+			<a href="index.html"><li>首页</li></a>
+			<a href="index2.html"><li>关于我们</li></a>
+			<a href="index3.html"><li>景区业务</li></a>
+			<a href="index4.html"><li>哈罗新闻</li></a>
+			<a href="index5.html"><li>下载APP</li></a>
+			<a href="index6.html"><li>加入我们</li></a>
+		</ul>
+	</div>
+	<!-- 轮播图开始 -->
+	<!--banner-->
+	<div class="swiper-container lunbo">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide"><img src="img/lbt1.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="img/lbt2.jpg" alt=""></div>
+			<div class="swiper-slide"><img src="img/lbt3.jpg" alt=""></div>
+		</div>
+		<!-- 如果需要分页器 -->
+		<div class="swiper-pagination"></div>
+
+		<!--&lt;!&ndash; 如果需要导航按钮 &ndash;&gt;-->
+		<!--<div class="swiper-button-prev"></div>-->
+		<!--<div class="swiper-button-next"></div>-->
+
+		<!--&lt;!&ndash; 如果需要滚动条 &ndash;&gt;-->
+		<!--<div class="swiper-scrollbar"></div>-->
+	</div>
+	<!-- <ul class="lunbo">
+		<li><img src="img/lbt3.jpg" alt=""></li>
+		<li><img src="img/lbt2.jpg" alt=""></li>
+		<li><img src="img/lbt1.jpg" alt=""></li>
+		<div class="lunbodian">
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</ul> -->
+	<!-- 下图开始 -->
+	<div class="xiatuneikuan">
+		<a href="video/cnp.mp4"><div class="tu1">
+						<img src="img/xiatu1.jpg" alt=""><img src="img/play.png" alt="" id="bofang">
+						<div class="xianshi"><img src="img/play.png" alt=""></div>
+					</div>
+		</a>
+		<div class="tu1"><img src="img/xiatu2.jpg" alt=""></div>
+		<div class="tu1"><img src="img/xiatu3.jpg" alt=""></div>
+	</div>
+	<!-- 中部特效区 -->
+	<div class="zhong">
+		<div class="zhongjs">
+			<div class="zhongt"><img src="img/zhong1.png" alt=""></div>
+			<div class="zhongz">
+				<div class="kej">科技</div>
+				<marquee behavior="" direction="">我们的共享单车黑科技满满！！</marquee>
+				<p>我们的单车是全球第一个无桩共享单车平台,  首创“无桩单车共享”模式。用户可通过手机解锁自行车，享受随时随地有车骑的共享出行服务。更好骑的共享单车，领先的移动物联网智能锁，全球最大的人工智能大数据平台“奇点”系统。我们为您建立起从用户舒适骑行到以物联网为载体、人工智能为核心的科技闭环。</p>
+			</div>
+		</div>
+	</div>
+	<div class="zhong">
+		<div class="zhongjs2">
+			<div class="zhongt2"><img src="img/zhong2.jpg" alt=""></div>
+			<div class="zhongz2">
+				<div class="kej2">安全</div>
+				<marquee behavior="" direction="">采用最先进的刹车制动系统！！！</marquee>
+				<p>单车在城市环境下 5 年无需维护随时可用。单车始终将安全视为重中之重，采用汽车级碟刹系统，制动效率比普通刹车高 20%。当你解锁一辆单车，你应该知道我们是可靠的。</p>
+			</div>
+		</div>
+	</div>
+	<div class="zhong">
+		<div class="zhongjs zhong3">
+			<div class="zhongt"><img src="img/zhong3.jpg" alt=""></div>
+			<div class="zhongz">
+				<div class="kej">政府合作</div>
+				<marquee behavior="" direction="">我们的共享单车黑科技满满！！</marquee>
+				<p>我们的单车是全球第一个无桩共享单车平台,  首创“无桩单车共享”模式。用户可通过手机解锁自行车，享受随时随地有车骑的共享出行服务。更好骑的共享单车，领先的移动物联网智能锁，全球最大的人工智能大数据平台“奇点”系统。我们为您建立起从用户舒适骑行到以物联网为载体、人工智能为核心的科技闭环。</p>
+			</div>
+		</div>
+	</div>	
+	<!-- 底部 -->
+	<div class="foot">
+		<div class="footneikuan">
+			<div class="dihl"><img src="img/hl2.png" alt=""></div>
+			<div class="xian"></div>
+			<div class="shanghai">上海钧正网络科技有限公司 | 联系电话021-61679500</div>
+			<div class="beian">备案许可证号: 沪ICP备16050850号-1</div>
+		</div>
+	</div>
+	<!-- 最底部 -->
+	<div class="zuidi"></div>
+
+
+	<script>
+        var mySwiper = new Swiper ('.swiper-container', {
+            autoplay:true,
+            autoplay: {
+                disableOnInteraction: false,
+            },
+            speed:1000,
+            direction: 'horizontal',
+
+            loop: true,
+            effect : 'coverflow',
+
+
+            // 如果需要分页器
+            pagination: {
+                el: '.swiper-pagination',
+                clickable :true,
+            },
+
+            // // 如果需要前进后退按钮
+            // navigation: {
+            //     nextEl: '.swiper-button-next',
+            //     prevEl: '.swiper-button-prev',
+            // },
+
+            // // 如果需要滚动条
+            // scrollbar: {
+            //     el: '.swiper-scrollbar',
+            // },
+        })
+	</script>
+</body>
+</html>
